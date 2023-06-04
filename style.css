@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Playfair Display', serif;
-    background: #F8F6F4;
-} 
+  font-family: 'Playfair Display', serif;
+  background: #F8F6F4;
+}
 
 /* .upbtn {
     transform: rotate(-90deg);
@@ -25,140 +25,140 @@ body {
 } */
 
 header {
-    display: flex;
-    width: 100%;
-    height: 132px;
-    position: fixed;
-    border-bottom: 2px solid #000000;
-    background: #FFFFFF;
+  display: flex;
+  width: 100%;
+  height: 132px;
+  position: fixed;
+  border-bottom: 2px solid #000000;
+  background: #FFFFFF;
 }
 
 header img {
-    width: auto;
-    height: 130px;
-    border-radius: 50%;
+  width: auto;
+  height: 130px;
+  border-radius: 50%;
 }
 
 header .nav {
-    width: 100%;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 header .nav .nav-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header .nav .nav-title h3 {
-    font-size: 2rem;
-    font-weight: bolder;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
-header .nav .nav-link-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+header .nav .nav-link-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header .nav .nav-link-box .nav-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 header .nav .nav-link-box .nav-links li {
-    list-style: none;
-    margin-right: 12px;
-    font-size: 1.2rem;
+  list-style: none;
+  margin-right: 12px;
+  font-size: 1.2rem;
 }
 
 header .nav .nav-link-box .nav-links li select {
-    outline: none;
-    border: none;
-    background: transparent;
-    font-size: 1.2rem;
-    font-family: 'Playfair Display', serif;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
 }
 
 header .nav .nav-link-box .nav-links li:hover {
-    font-size: 2rem;
-    font-weight: bolder;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 header .nav .nav-link-box .nav-links li select:hover {
-    font-size: 2rem;
-    font-weight: bolder;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 main .home {
-    width: 100%;
-    height: 100vh;
-    background-image: url('home.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 2px solid #000000;
+  width: 100%;
+  height: 100vh;
+  background-image: url('home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #000000;
 }
 
 main .home .home-overlap-box {
-    padding-top: 550px;
+  padding-top: 550px;
 }
 
 main .home .home-overlap-box .home-overlap {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 25px 0 25px 0;
-    text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px 0 25px 0;
+  text-align: center;
 }
 
 main .home .home-overlap-box .home-overlap h3 {
-    color: #FFFFFF;
-    font-size: 2rem;
+  color: #FFFFFF;
+  font-size: 2rem;
 }
 
 main .home .home-overlap-box .home-overlap p {
-    font-size: 0.7rem;
-    color: #F8F6F4;
-    opacity: 0.3;
+  font-size: 0.7rem;
+  color: #F8F6F4;
+  opacity: 0.3;
 }
 
 main .about {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    border-bottom: 2px solid #000000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-bottom: 2px solid #000000;
 }
 
 main .about .about-con {
-    width: 100%;
-    background: #FFFFFF;
+  width: 100%;
+  background: #FFFFFF;
 }
 
 main .about .about-con .about-box {
-    margin: 10%;
+  margin: 10%;
 }
 
 main .about .about-img {
-    width: 100%;
-    background-image: url('home.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  width: 100%;
+  background-image: url('home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
 
 footer {
-    text-align: center;
-    background: #FFFFFF;
-    border-top: 2px solid #000000;
-    font-weight: bolder;
-    padding: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  border-top: 2px solid #000000;
+  font-weight: bolder;
+  padding: 20px;
 }
 
 /* footer div {
@@ -173,3 +173,70 @@ footer {
     margin-top: 50%;
     position: fixed;
 } */
+
+/* media design */
+
+@media (max-width: 600px) {
+  header {
+    height: 87px;
+  }
+
+  header img {
+    width: auto;
+    height: 85px;
+    border-radius: 50%;
+  }
+
+  header .nav {
+    margin-left: 0px;
+  }
+
+  header .nav .menu-logo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 3.3rem;
+    margin: 0 5px 0 0;
+  }
+
+  header .nav .nav-title h3 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+  header .nav .nav-link-box {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: #F8F6F4;
+  }
+
+  header .nav .nav-link-box .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  header .nav .nav-link-box .nav-links li {
+    list-style: none;
+    margin-right: 12px;
+    font-size: 1.2rem;
+  }
+
+  header .nav .nav-link-box .nav-links li select {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+  }
+
+  header .nav .nav-link-box .nav-links li:hover {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  header .nav .nav-link-box .nav-links li select:hover {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+}
