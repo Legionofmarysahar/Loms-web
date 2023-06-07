@@ -54,7 +54,7 @@ header .nav .nav-title {
 }
 
 header .nav .nav-title h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bolder;
 }
 
@@ -321,7 +321,7 @@ footer {
   }
 
   header .nav .nav-title h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
   }
 
@@ -465,7 +465,7 @@ footer {
 
   main .administrator h1 {
     padding: 25px;
-    border-bottom: none;
+    border: none;
   }
 
   main .administrator .admin-box {
